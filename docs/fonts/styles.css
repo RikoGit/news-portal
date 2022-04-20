@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: 400;
   src: local("PlayfairDisplay"),
-       url("/fonts/PlayfairDisplay/regular.woff2") format("woff2"),
-       url("/fonts/PlayfairDisplay/regular.woff") format("woff");
+       url("PlayfairDisplay/regular.woff2") format("woff2"),
+       url("PlayfairDisplay/regular.woff") format("woff");
   font-display: swap;
 }
 
@@ -13,8 +13,8 @@
   font-style: normal;
   font-weight: 700;
   src: local("PlayfairDisplay"),
-       url("/fonts/PlayfairDisplay/bold.woff2") format("woff2"),
-       url("/fonts/PlayfairDisplay/bold.woff") format("woff");
+       url("PlayfairDisplay/bold.woff2") format("woff2"),
+       url("PlayfairDisplay/bold.woff") format("woff");
   font-display: swap;
 }
 
@@ -23,8 +23,8 @@
   font-style: normal;
   font-weight: 400;
   src: local("Roboto"),
-       url("/fonts/Roboto/regular.woff2") format("woff2"),
-       url("/fonts/Roboto/regular.woff") format("woff");
+       url("Roboto/regular.woff2") format("woff2"),
+       url("Roboto/regular.woff") format("woff");
   font-display: swap;
 }
 
@@ -34,8 +34,8 @@
   font-style: normal;
   font-weight: 700;
   src: local("Roboto"),
-       url("/fonts/Roboto/bold.woff2") format("woff2"),
-       url("/fonts/Roboto/bold.woff") format("woff");
+       url("Roboto/bold.woff2") format("woff2"),
+       url("Roboto/bold.woff") format("woff");
   font-display: swap;
 }
       
