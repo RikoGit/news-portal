@@ -181,7 +181,6 @@ body {
     }
     &__title {
         margin: 0 0 12px;
-        height: 63px;
         font-family: 'Playfair Display';
         font-style: normal;
         font-weight: 700;
@@ -193,15 +192,9 @@ body {
     }
     &__link {
         display: block;
-        font-family: 'Playfair Display';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 21px;
-        color: #121221;
         text-decoration: none;
 
-        &:hover {
+        &:hover .news-card__title {
             color: #1e0bc7;
         }
     }
@@ -268,6 +261,11 @@ body {
     .news-list {
         grid-template-columns: repeat(2, 1fr);
     }   
+    .news-card {
+        &__title {
+            height: 63px;
+        }
+    }
 }
 
 @media (min-width: 768px) { 
@@ -300,12 +298,9 @@ body {
         }
         &__title {
             height: 48px;
-        }
-        &__link,
-        &__title {
             font-size: 18px;
             line-height: 24px;
-        }        
+        }
         &__annotation {
             font-size: 14px;
             line-height: 25px;
@@ -339,12 +334,8 @@ body {
         &__title {
             margin: 0 0 16px;
             height: 64px;
-            
-        }
-        &__link,
-        &__title {
             font-size: 24px;
-            line-height: 32px;
+            line-height: 32px;          
         }
     }
 }
