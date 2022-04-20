@@ -1,3 +1,44 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-style: normal;
+    font-weight: 400;
+    src: local("PlayfairDisplay"),
+         url("./fonts/PlayfairDisplay/regular.woff2") format("woff2"),
+         url("./fonts/PlayfairDisplay/regular.woff") format("woff");
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-style: normal;
+    font-weight: 700;
+    src: local("PlayfairDisplay"),
+         url("./fonts/PlayfairDisplay/bold.woff2") format("woff2"),
+         url("./fonts/PlayfairDisplay/bold.woff") format("woff");
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+         url("./fonts/Roboto/regular.woff2") format("woff2"),
+         url("./fonts/Roboto/regular.woff") format("woff");
+    font-display: swap;
+}
+  
+  
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Roboto"),
+         url("./fonts/Roboto/bold.woff2") format("woff2"),
+         url("./fonts/Roboto/bold.woff") format("woff");
+    font-display: swap;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -141,6 +182,12 @@ body {
     &__title {
         margin: 0 0 12px;
         height: 63px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        color: #121221;
         overflow: hidden;
         text-overflow: ellipsis;
     }
@@ -153,7 +200,6 @@ body {
         line-height: 21px;
         color: #121221;
         text-decoration: none;
-        transition: color ;
 
         &:hover {
             color: #1e0bc7;
@@ -215,7 +261,7 @@ body {
     }
 }
 
-@media (min-width: 376px) { 
+@media (min-width: 375px) { 
     .news-toolbar {
         flex-direction: row;
     }
@@ -224,7 +270,7 @@ body {
     }   
 }
 
-@media (min-width: 769px) { 
+@media (min-width: 768px) { 
     .header,
     .main {
         margin: 0 60px 63px;
@@ -255,7 +301,8 @@ body {
         &__title {
             height: 48px;
         }
-        &__link {
+        &__link,
+        &__title {
             font-size: 18px;
             line-height: 24px;
         }        
@@ -266,7 +313,7 @@ body {
     }
 }
 
-@media (min-width: 1441px) { 
+@media (min-width: 1440px) { 
     .header,
     .main {
         margin: 0 135px 93px;
@@ -294,7 +341,8 @@ body {
             height: 64px;
             
         }
-        &__link {
+        &__link,
+        &__title {
             font-size: 24px;
             line-height: 32px;
         }
